@@ -4,7 +4,7 @@ hpc$Date <- as.Date(hpc$Date, format = "%d/%m/%Y")
 
 ## Reading partial dataset based on date
 hpc2 <- subset(hpc, subset = (Date >= "2007-02-01" & Date <= "2007-02-02"))
-##Remove the full hpc2set
+##Remove the full hpc dataset
 rm(hpc)
 
 ## Converting dates
